@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.opciones a:hover {
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.opciones {
+    padding-right: 2rem;
+}
+
+#inicio, #reservas, #contacto {
+    margin-right: 2rem;
+}
